@@ -1,6 +1,6 @@
 # https://github.com/Ife-A/lab10-IA-AU
 # Partner 1: Ifeanyichukwu Alutu
-# Partner 2: Ayan Uzzyman
+# Partner 2: Ayan Uzzaman
 
 """
 calculator.py
