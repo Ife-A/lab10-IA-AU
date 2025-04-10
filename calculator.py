@@ -1,9 +1,8 @@
-"""
-calculator.py
-- Defines functions used to create a simple calculator
+# https://github.com/Ife-A/lab10-IA-AU
+# Partner 1: ifeanyichukwu Alutu
+# Partner 2: Ayan Uzzaman
 
-One function per operation, in order.
-"""
+
 import math
 
 
