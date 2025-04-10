@@ -2,11 +2,15 @@ import unittest
 from calculator import *
 
 class TestCalculator(unittest.TestCase):
-    def test_add(a,b): # 3 assertions
-        return a + b
+    def test_add(self): # 3 assertions
+        self.assertEqual(add(2, 3), 5)
+        self.assertEqual(add(-1, 1), 0)
+        self.assertEqual(add(0, 5), 5)
 
-    def test_subtract(a,b): # 3 assertions
-        return a - b
+    def test_subtract(self): # 3 assertions
+        self.assertEqual(sub(5, 2), 3)
+        self.assertEqual(sub(0, 5), -5)
+        self.assertEqual(sub(3, 3), 0)
 
     ######## Partner 1
     # def test_multiply(self): # 3 assertions
@@ -25,7 +29,7 @@ class TestCalculator(unittest.TestCase):
     def test_logarithm(self): # 3 assertions
         self.assertAlmostEqual(log(10, 100), 2.0)
         self.assertAlmostEqual(log(2, 8), 3.0)
-        self.assertAlmostEqual(log(math.e, math.e), 1.0)
+        self.assertAlmostEqual(log(5, 25), 5.0)
 
     def test_log_invalid_base(self):
         with self.assertRaises(ValueError):
