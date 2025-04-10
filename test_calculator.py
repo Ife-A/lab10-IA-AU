@@ -1,3 +1,7 @@
+# https://github.com/Ife-A/lab10-IA-AU
+# Partner 1: Ifeanyichukwu Alutu
+# Partner 2: Ayan Uzzaman
+
 import unittest
 from calculator import *
 
